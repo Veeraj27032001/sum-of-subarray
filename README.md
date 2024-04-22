@@ -2,8 +2,7 @@
 # 1
 
 
-class Solution
-{ static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
+    static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
     {
        
         Map<Integer, ArrayList<?>> map=new LinkedHashMap();
@@ -16,7 +15,7 @@ class Solution
                 {
                    
                     return new ArrayList<Integer>(Arrays.asList(i+1, i+1));
-                }
+                } 
                 
                 
             for(int j=i+1;j<n;j++)
@@ -44,7 +43,7 @@ class Solution
                 
                
                  
-            }
+            
             
             
                
@@ -53,8 +52,3 @@ class Solution
         
     }
 }
-
-
-
-# 2
-
