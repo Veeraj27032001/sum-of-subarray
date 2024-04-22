@@ -1,8 +1,9 @@
 # sum-of-subarray
 # 1
+
+
 class Solution
 {
-    //Function to find a continuous sub-array which adds up to a given number.
     static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
     {
        
