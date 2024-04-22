@@ -3,8 +3,7 @@
 
 
 class Solution
-{
-    static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
+{ static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
     {
        
         Map<Integer, ArrayList<?>> map=new LinkedHashMap();
